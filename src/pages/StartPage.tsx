@@ -45,7 +45,7 @@ export const StartPage = () => {
 
         <div className="mb-6 w-full max-w-xs mx-auto">
           <img
-            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=adult%20picture%20book%20illustration%20style%2C%20warm%20and%20gentle%2C%20chinese%20male%2035%20years%20old%20office%20worker%20sitting%20by%20window%2C%20soft%20evening%20city%20view%20outside%2C%20simple%20weekly%20calendar%20on%20desk%20with%20Monday%20Wednesday%20Friday%20marked%2C%20water%20cup%20lunch%20box%20phone%20diary%20on%20desk%2C%20cream%20white%20background%2C%20soft%20warm%20orange%20and%20light%20red%20accents%2C%20hand%20drawn%20texture%2C%20subtle%20paper%20grain%2C%20soft%20shadows%2C%20calm%20hopeful%20atmosphere%2C%20medical%20humanitarian%20care%20theme%2C%20mobile%20vertical%20layout%2C%20no%20hospital%20brands%2C%20no%20blood%2C%20no%20scary%20elements&image_size=portrait_16_9"
+            src={`${import.meta.env.BASE_URL}images/start.png`}
             alt="游戏插画"
             className="w-full h-auto rounded-2xl shadow-warm"
           />
