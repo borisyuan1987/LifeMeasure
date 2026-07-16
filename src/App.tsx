@@ -7,7 +7,7 @@ import { BackgroundMusic } from '@/components/BackgroundMusic';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LifeMeasure">
       <BackgroundMusic />
       <Routes>
         <Route path="/" element={<StartPage />} />

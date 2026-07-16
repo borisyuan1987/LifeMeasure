@@ -33,7 +33,7 @@ export const BackgroundMusic = () => {
 
   return (
     <div className="fixed top-4 right-4 z-50">
-      <audio ref={audioRef} src="/bgm.mp3" />
+      <audio ref={audioRef} src={`${import.meta.env.BASE_URL}bgm.mp3`} />
       <button
         onClick={isMuted ? toggleMute : togglePlay}
         className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 shadow-soft ${
